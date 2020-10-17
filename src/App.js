@@ -7,14 +7,12 @@ class App extends React.Component {
     constructor(props){
         super(props);
         this.state={
-            users:[
-
-            ],
+            users:[],
             searchField:''
         };
     }
     componentDidMount(){
-        fetch('http://localhost/demo1/php/users.php')
+        fetch('your rest url')
         .then(response=>
             response.json()
         )
