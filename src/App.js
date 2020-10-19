@@ -1,7 +1,7 @@
 import React from 'react';
 import {CardList} from './Component/card-list.component';
-import './App.css'
-import './Component/search-box/search-box.style.css'
+import './App.css';
+import './Component/search-box/search-box.style.css';
 
 class App extends React.Component {
     constructor(props){
@@ -16,8 +16,8 @@ class App extends React.Component {
         .then(response=>
             response.json()
         )
-        .then(user=>
-           this.setState({users:user}));
+        .then(users=>
+           this.setState({users:users}));
     }
     render(){
         const {users ,searchField}=this.state;
@@ -28,8 +28,8 @@ class App extends React.Component {
        
   return (
     <div className='App'>
-      <h1>Monsters Rolodex</h1>
-       <input type='search' className='search' onChange={e=> this.setState({searchField:e.target.value})} placeholder='Search Monster'/>
+      <h1>Monster Horror</h1>
+       <input type='search' className='search' onChange={event=> this.setState({searchField:event.target.value})} placeholder='Search Monster'/>
     <CardList users={filteredMonsters} />
     </div>
   );
