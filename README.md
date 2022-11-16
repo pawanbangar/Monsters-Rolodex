@@ -3,8 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshots
 
-[Image1](https://github.com/pawanbangar/Monsters-Rolodex/blob/master/Screenshot%20(96).png)
+![Image1](https://github.com/pawanbangar/Monsters-Rolodex/blob/master/Screenshot%20(96).png)
 
-[Image2](https://github.com/pawanbangar/Monsters-Rolodex/blob/master/Screenshot%20(97).png)
+![Image2](https://github.com/pawanbangar/Monsters-Rolodex/blob/master/Screenshot%20(97).png)
 
-[Image3](https://github.com/pawanbangar/Monsters-Rolodex/blob/master/Screenshot%20(98).png)
+![Image3](https://github.com/pawanbangar/Monsters-Rolodex/blob/master/Screenshot%20(98).png)
